@@ -12,10 +12,10 @@ namespace RaceTrack.RaceTrack.Cars
         
         public override void StartEngine()
         {
-            Console.WriteLine($"The {Name} roars to life!");
+            Console.WriteLine($"The {Name} starts to blow smoke!");
         }
         
-        public virtual void Brake()
+        public override void Brake()
         {
             Console.WriteLine($"The world's greatest truck {Name} ends in position {Position}!");
         }
